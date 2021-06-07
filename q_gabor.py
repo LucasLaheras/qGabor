@@ -1,6 +1,7 @@
 import tensorflow as tf
 import numpy as np
 from skimage.filters import gabor
+import cv2
 
 class q_gabor():
     def __init__(self, q, alpha=0.3, f=0.08, theta=0, k=1):
